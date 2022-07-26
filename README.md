@@ -29,3 +29,11 @@ CI 도구를 이용하면 여러 가지 프로젝트의 빌드를 자동화하�
 6. 이슈트래킹 시스템 (ITS : Issue Tracking System) 연동 : Redmine, JIRA 등
 7. 웹 애플리케이션 서버 연동 : Tomcat, JBoss, Glassfish, WebSphere, FTP, SSH 등
 8. 결과 보고와 피드백 : E-mail, Twitter, Jabber, IRC, RSS, Google calendar 등
+
+## 허드슨 작업 정의
+
+허드슨에서 실행 단위를 작업(job)이라 한다. 허드슨 작업을 실행할 때 연계되는 빌드 도구(Build Step)를 정의 할 수 있다.
+1. Execute Windows batch command : Window 명령 실행 및 batch command script를 작성해서 실행한다.
+2. Invoke Maven 2(Legacy) : 메이븐 2.0과 2.2 버전을 실행한다.
+3. Invoke Ant : Ant script 실행한다.
+4. Execute shel : 유닉스, 리눅스, macOS에서 쉘 스크립트를 실행한다.
